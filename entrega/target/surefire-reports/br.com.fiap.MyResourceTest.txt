@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: br.com.fiap.MyResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.214 s <<< FAILURE! -- in br.com.fiap.MyResourceTest
+br.com.fiap.MyResourceTest.testGetIt -- Time elapsed: 1.179 s <<< ERROR!
+jakarta.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.glassfish.jersey.client.JerseyInvocation.convertToException(JerseyInvocation.java:902)
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:712)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$1(JerseyInvocation.java:632)
+	at org.glassfish.jersey.client.JerseyInvocation.call(JerseyInvocation.java:654)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$runInScope$3(JerseyInvocation.java:648)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:390)
+	at org.glassfish.jersey.client.JerseyInvocation.runInScope(JerseyInvocation.java:648)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:631)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:406)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:302)
+	at br.com.fiap.MyResourceTest.testGetIt(MyResourceTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

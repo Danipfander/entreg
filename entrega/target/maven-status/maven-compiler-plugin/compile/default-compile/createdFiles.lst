@@ -1,0 +1,7 @@
+br\com\fiap\banco\model\Customer.class
+br\com\fiap\banco\service\CustomerService.class
+br\com\fiap\Main.class
+br\com\fiap\MyResource.class
+br\com\fiap\banco\resource\CustomerResource.class
+br\com\fiap\banco\dao\CustomerDao.class
+br\com\fiap\banco\factory\ConnectionFactory.class
